@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+  <title>HTML that will be / was minified</title>
+</head>
+<body>
+  <h1>Some good old (X)HTML</h1>
+  <p class="this-element-has-only-one-class">Paragraph 1.<br/> Whitespaces between elements will be preserved, preventing optimizations that omit closing tags.</p>
+  <p>Paragraph 2</p><p>Paragraph 3</p><ul class="where-this has-two">
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    <li>Four</li>
+  </ul>
+  <ul class="maybe-this-list-is-to-used-inline">
+    <li>One</li><li>Two</li><li>Three</li><li>Four</li>
+  </ul>
+  <img alt="" title="This image has an empty alt-attribute that will be kept" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
+AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
+9TXL0Y4OHwAAAABJRU5ErkJggg==" />
+  <p>Default values will be stripped</p>
+  <form method="get">
+    <label>How cool is this?</label>
+    <select>
+      <option>Very</option>
+      <option selected="selected">Extremely</option>
+    </select>
+    
+    <input type="text" name="data" id="data" disabled="disabled" />
+  </form>  
+</body>
